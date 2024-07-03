@@ -65,6 +65,7 @@ function main() {
     var isvalid = verifySignature(publickey, hash, signature);
     console.log("nonce is ".concat(nonce, "\n"));
     console.log("".concat(publickey, "\n"));
+    console.log("".concat(privatekey, "\n"));
     console.log("hash after sign is ".concat(signature, "\n"));
     console.log("Is the signature valid? ".concat(isvalid, "\n"));
 }

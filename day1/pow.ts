@@ -81,6 +81,7 @@ function main(){
 
     console.log(`nonce is ${nonce}\n`);
     console.log(`${publickey}\n`);
+    console.log(`${privatekey}\n`);
     console.log(`hash after sign is ${signature}\n`);
     console.log(`Is the signature valid? ${isvalid}\n`);
 
